@@ -1,0 +1,744 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--=============== FAVICON ===============-->
+
+    <!--=============== REMIXICONS ===============-->
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <title>Cook</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <div class="header__inner container">
+            <!-- Logo -->
+            <div class="header__logo">
+                <img src="./assets/img/Logo.png" alt="Cook" class="logo">
+            </div>
+
+            <!-- Nav -->
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <div class="nav__action">
+                        <!-- Close button -->
+                        <a id="nav-close" class="nav__close" href="#">
+                            <img src="./assets/img/cancel.png" alt="">
+                        </a>
+
+                        <!-- Log-in -->
+                        <a class="nav__login" id="nav-login" href="#"> <img src="./assets/img/log-in.png" alt=""></a>
+                    </div>
+                    <li class="nav__link">
+                        <a href="#" class="nav__item dpfl">
+                            <img class="nav__item__img" src="./assets/img/nav_1.png" alt="Cooking Classes">
+                            <span>Cooking Classes</span>
+                        </a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="#" class="nav__item dpfl">
+                            <img class="nav__item__img" src="./assets/img/nav_2.png" alt="Become A Chef">
+                            <span>Become A Chef</span>
+                        </a>
+                    </li>
+                    <li class="nav__link">
+                        <a href="#" class="nav__item dpfl">
+                            <img class="nav__item__img" src="./assets/img/nav_3.png" alt="Group Cooking">
+                            <span>Group Cooking</span>
+                        </a>
+                    </li>
+                    <li class="nav__link nav__link__select nav__link__select-lang">
+                        <a href="#" class="nav__item dpfl">
+                            <span>Eng</span>
+                            <img class="nav__img__select" src="/assets/img/Polygon1.png" alt="Group Cooking">
+                        </a>
+                        <!-- <ul class="action__subnav action__subnav_lang ">
+                            <p>Select a language</p>
+                            <li class="border-bottom">USD</li>
+                            <li class="border-bottom">EUF</li>
+                            <li class="border-bottom">UAH</li>
+                            <li class="border-bottom">GBP</li>
+                            <li class="border-bottom">CHF</li>
+                        </ul> -->
+                    </li>
+
+                    <li class="nav__link nav__link__select nav__link__select-cur">
+                        <a href="#" class="nav__item dpfl">
+                            <span>Usd</span>
+                            <img class="nav__img__select" src="/assets/img/Polygon1.png" alt="Group Cooking">
+                        </a>
+                        <!-- <ul class="action__subnav action__subnav_lang">
+                            <p>Select a language</p>
+                            <li class="border-bottom">USD</li>
+                            <li class="border-bottom">EUF</li>
+                            <li class="border-bottom">UAH</li>
+                            <li class="border-bottom">GBP</li>
+                            <li class="border-bottom">CHF</li>
+                        </ul> -->
+                    </li>
+
+
+                </ul>
+
+            </nav>
+
+            <!-- Action -->
+            <div class="hearder__action dpfl">
+
+                <!-- Language -->
+                <div class="action__language">
+                    <a class="action__select dpfl" href="#!">Eng
+                        <img class="action__img" src="./assets/img/Icon/header_action.svg" alt="Polygon">
+                    </a>
+                    <ul class="action__subnav action__subnav_lang">
+                        <p>Select a language</p>
+                        <li class="border-bottom">USD</li>
+                        <li class="border-bottom">EUF</li>
+                        <li class="border-bottom">UAH</li>
+                        <li class="border-bottom">GBP</li>
+                        <li class="border-bottom">CHF</li>
+                    </ul>
+                </div>
+
+                <!-- Currency -->
+                <div class="action__currency">
+                    <a class="action__select dpfl" href="#!">USD
+                        <img class="action__img" src="./assets/img/Icon/header_action.svg" alt="Polygon">
+                    </a>
+                    <ul class="action__subnav action__subnav__cur">
+                        <p>Select a currency</p>
+                        <li>USD</li>
+                        <li>EUF</li>
+                        <li>UAH</li>
+                        <li>GBP</li>
+                        <li>CHF</li>
+                    </ul>
+                </div>
+
+                <!-- Info  -->
+                <div class="action__info">
+                    <img src="./assets/img/Icon/hearder-info.svg" alt="Info">
+                </div>
+
+                <!-- Login -->
+                <div class="action__login btn">
+                    <a class="action__login__item dpfl" href="#!">
+                        <span>Login</span>
+                        <img class="action__login__img" src="./assets/img/Icon/hearder-log-in.svg" alt="Login">
+                    </a>
+                </div>
+
+            </div>
+
+            <!-- Tablet/mobile menu -->
+            <div class="toggle-menu btn__icon" id="toggle-menu">
+                <img class="toggle-menu__img" src="./assets/img/menu.png" alt="">
+            </div>
+        </div>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HERO ====================-->
+        <section class="hero section " id="hero">
+            <div class="hero__img">
+                <img src="./assets/img/HeroImg.png" alt="" class="hero__img__main">
+                <img src="./assets/img/HeroVector.png" alt="" class="hero__img-2">
+                <div class="hero__note">
+                    <div class="hero__note-title dpfl">
+                        <img src="./assets/img/hero_note.png" alt="" class="note__img">
+                        <div class="note__title">
+                            <p>David Mitchell</p>
+                            <span class="font">4.8
+                                <img src="./assets/img/Vector.png" alt="">
+                            </span>
+                        </div>
+                    </div>
+                    <p class="hero__note-desc">
+                        I've discovered a whole new world of flavors. Learning to cook has never been this fun and
+                        engaging!
+                    </p>
+                </div>
+            </div>
+
+            <div class="hero__info container">
+                <h1 class="hero__info__title heading lv1">Master the Art of Cooking with <span
+                        class="hero__title--strong">Experts</span>
+                    Worldwide</h1>
+                <p class="hero__info__desc font">Experience the joy of cooking in a whole new way with our
+                    engaging
+                    online cooking classes.
+                    Learn from the chefs, share your unique culinary knowledge, and join our growing foodie
+                    community.
+                    With COOK, learning, and teaching becomes a shared passion.
+                </p>
+                <a href="#!" class="hero__watch-video dpfl">
+                    <img class="watch-video__img" src="./assets/img/Icon/Hero-play-circle.svg" alt="watch-video">
+                    <span class="watch-video__desc font" style="--line-height: 2rem">Watch a video</span>
+                </a>
+                <!-- cta: Call to action -->
+                <div class="hero__action dpfl">
+                    <a href="#!" class="hero__action__find btn" style="--line-height: 2.3rem">Find Your
+                        Tutor</a>
+                    <a href="#!" class="hero__action__join btn" style="--line-height: 2.3rem">Join Our Chefs</a>
+                </div>
+            </div>
+
+            <div class="hero__landing-stats dpfl font">
+                <div class="landing__item">
+                    <p class="landing__stats">100+</p>
+                    <p class="landing__desc">Talented Chefs</p>
+                </div>
+                <div class="landing__item">
+                    <p class="landing__stats">1000+</p>
+                    <p>Students</p>
+                </div>
+                <div class="landing__item">
+                    <div class="landing--rating dpfl">
+                        <p class="landing__stats">4.8</p>
+                        <img class="landing--rating__img" src="./assets/img/hero-rating.png" alt="star">
+                    </div>
+                    <p>Rating</p>
+                </div>
+                <div class="landing__item">
+                    <p class="landing__stats">20+</p>
+                    <p>Cooking Categories</p>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Explore & learn - el ====================-->
+        <section class="explore-learn section container">
+            <div class="el__inner">
+                <div class="el dpfl">
+                    <h2 class="el__title dpfl heading lv2">
+                        <img class="el__title__img" src="./assets/img/el_header.png" alt="">
+                        <span>Explore & Learn</span>
+                    </h2>
+                    <a class="el__search dpfl" href="#!">
+                        <img class="el__search__img" src="./assets/img/el_search.png" alt="">
+                        <span>Search tutors by category</span>
+                    </a>
+                </div>
+                <p class="el__desc">Dive into a range of cooking styles and techniques tailored to your interests</p>
+
+                <!-- List explore and lear -->
+                <ul class="list__el">
+                    <li class="el__item dpfl">
+                        <img src="./assets/img/Icon/el_10.svg" alt="">
+                        <div class="el__content">
+                            <div class="el__content__title dpfl">
+                                <h3 class="el__title__header heading lv3"> Bakery</h3>
+                                <img src="./assets/img/Icon/el_11.svg" alt="" class="el__title__img">
+                            </div>
+                            <p class="el__content__desc font" style="--line-height: 2.1rem">Master baking: from rustic
+                                bread to delicate pastries
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="el__item dpfl">
+                        <img class="el__item__img" src="./assets/img/Icon/el_12.svg" alt="">
+                        <div class="el__content">
+                            <div class="el__content__title dpfl">
+                                <h3 class="el__title__header heading lv3"> Bakery</h3>
+                                <img src="./assets/img/Icon/el_arrow-up-right.svg" alt="" class="el__title__img">
+                            </div>
+                            <p class="el__content__desc font" style="--line-height: 2.1rem">Create delicious, nutritious
+                                meals with plant-based ingredients
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="el__item dpfl">
+                        <img class="el__item__img" src="./assets/img/Icon/el_13.svg" alt="">
+                        <div class="el__content">
+                            <div class="el__content__title dpfl">
+                                <h4 class="el__title__header heading lv4"> Bakery</h4>
+                                <img src="./assets/img/Icon/el_arrow-up-right.svg" alt="" class="el__title__img">
+                            </div>
+                            <p class="el__content__desc font" style="--line-height: 2.1rem">Create delicious, nutritious
+                                meals with plant-based ingredients
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="el__item dpfl">
+                        <img class="el__item__img" src="./assets/img/Icon/el_14.svg" alt="">
+                        <div class="el__content">
+                            <div class="el__content__title dpfl">
+                                <h4 class="el__title__header heading lv4"> Bakery</h4>
+                                <img src="./assets/img/Icon/el_arrow-up-right.svg" alt="" class="el__title__img">
+                            </div>
+                            <p class="el__content__desc font" style="--line-height: 2.1rem">Create delicious, nutritious
+                                meals with plant-based ingredients
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="el__item dpfl">
+                        <img class="el__item__img" src="./assets/img/Icon/el_15.svg" alt="">
+                        <div class="el__content">
+                            <div class="el__content__title dpfl">
+                                <h4 class="el__title__header heading lv4"> Bakery</h4>
+                                <img src="./assets/img/Icon/el_arrow-up-right.svg" alt="" class="el__title__img">
+                            </div>
+                            <p class="el__content__desc font" style="--line-height: 2.1rem">Create delicious, nutritious
+                                meals with plant-based ingredients
+                            </p>
+                        </div>
+                    </li>
+
+                    <li class="el__item dpfl">
+                        <img class="el__item__img" src="./assets/img/Icon/el_16.svg" alt="">
+                        <div class="el__content">
+                            <div class="el__content__title dpfl">
+                                <h3 class="el__title__header heading lv3"> Bakery</h3>
+                                <img src="./assets/img/Icon/el_arrow-up-right.svg" alt="" class="el__title__img">
+                            </div>
+                            <p class="el__content__desc font" style="--line-height: 2.1rem">Create delicious, nutritious
+                                meals with plant-based ingredients
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+
+                <div class="el__show">
+                    <a href="#!" class="dpfl">
+                        <span>Show more</span>
+                        <img class="el__show__img" src="./assets/img/el-arrow-down-circle.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Our Unique Benefits ====================-->
+        <section class="benefits section ">
+            <div class="benefits-title text-align container">
+                <h2 class="benefits__title__heading heading lv2">Our Unique Benefits
+                    <img class="benefits__title__heading__img" src="./assets/img/Icon/Be_header.png" alt="">
+                </h2>
+                <p class="benefits__title__desc font">Experience the perks of learning and teaching cooking on our
+                    platform</p>
+            </div>
+
+            <ul class="benefits__list dpfl container">
+                <li class="benefits__item expertchefs text-align">
+                    <img class="benefits__item__img" src="./assets/img/Icon/Benefits_01.png" alt="">
+                    <h3 class="benefits__item__heading heading lv3">Expert Chefs</h3>
+                    <p class="font">Learn from the best. Our platform features professional chefs from around the
+                        world who bring their unique experiences and culinary secrets to every class.</p>
+                </li>
+                <li class="benefits__item save-accessible text-align">
+                    <img class="benefits__item__img" src="./assets/img/Icon/Benefits_02.png" alt="">
+                    <h3 class="benefits__item__heading heading lv3">Save Time and Money</h3>
+                    <p class="font">Embrace the convenience of learning from home. Save time on travel, reduce
+                        dining-out expenses, and master your kitchen with our online cooking classes.</p>
+                </li>
+                <li class="benefits__item save-accessible text-align">
+                    <img class="benefits__item__img" src="./assets/img/Icon/Benefits_03.png" alt="">
+                    <h3 class="benefits__item__heading heading lv3">Accessible Cooking</h3>
+                    <p class="font">Start your culinary journey with ease. Our user-friendly platform makes
+                        navigation simple, letting you focus on learning and enjoying your online cooking classes.
+                    </p>
+                </li>
+            </ul>
+
+            <div class="advan grid">
+                <div class="advan__level">
+                    <img src="./assets/img/advan_img.png" alt="" class="advan__level__img">
+                    <div class="advan__level__content">
+                        <a href="#">
+                            <span class="advan__level__content_title">Level up</span>
+                            <img class="advan__level__content_img" src="./assets/img/advan_icon.png" alt="">
+                        </a>
+                        <p class="advan__level__content_desc">Take your culinary skills to new heights. Our
+                            platform provides you with the expert guidance you need to refine your skills and cook like
+                            a pro</p>
+                    </div>
+                </div>
+                <div class="advan__list container">
+                    <h3 class="advan__list__heading heading lv3">Other Advantages</h3>
+                    <ul class="advan__list__inner">
+                        <li class="advan__list__item">
+                            <img class="advan__list__item__img" src="./assets/img/Icon/Be_Ads_01.png" alt="">
+                            <div class="adv__content">
+                                <h4 class="heading lv4">Diverse Range of Classes</h4>
+                                <p class="advan__list__item__desc font">Explore the culinary world with our vast
+                                    array
+                                    of online cooking
+                                    classes. Whether you're a beginner or a seasoned cook, we have a class that
+                                    suits
+                                    your skill level and interests.</p>
+                            </div>
+                        </li>
+                        <li class="advan__list__item">
+                            <img class="advan__list__item__img" src="./assets/img/Icon/Be_Ads_02.png" alt="">
+                            <div class="adv__content">
+                                <h4 class="heading lv4">Opportunity to Teach</h4>
+                                <p class="advan__list__item__desc font">Share your culinary wisdom. If you're an
+                                    experienced cook, our platform allows you to teach your classes, reach a global
+                                    audience, and earn income.</p>
+                            </div>
+                        </li>
+                        <li class="advan__list__item">
+                            <img class="advan__list__item__img" src="./assets/img/Icon/Be_Ads_03.png" alt="">
+                            <div class="adv__content">
+                                <h4 class="heading lv4">Interactive Lessons</h4>
+                                <p class="advan__list__item__desc font">Engage in real-time with expert chefs. Our
+                                    interactive online cooking classes allow you to ask questions, receive instant
+                                    feedback, and learn hands-on from the pros.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== How It Works ====================-->
+        <section class="works section container border-bottom">
+            <div class="works__title dpfl">
+                <h2 class="sub-title dpfl heading lv2">
+                    <img src="./assets/img/Icon/work_header.svg" alt="" class="works__title__img">
+                    <span>How It Works</span>
+                </h2>
+                <a href="#!" class="words__search dpfl">
+                    <img class="words__search__img" src="./assets/img/el_search.png" alt="">
+                    <span>Search tutors by category</span>
+                </a>
+            </div>
+
+            <p class="works__desc font">Getting Started with the COOK Platform</p>
+
+            <div class="works__steps__list">
+                <section class="works__step__item dpfl">
+                    <div class="works__step__num">
+                        <span class="step__num dpfl">1</span>
+                        <img class="works__step__num__img" src="./assets/img/work_01.png" alt="">
+                    </div>
+                    <div class="works__step__content">
+                        <h3 class="works__step__content__heading heading lv3">Explore Our Culinary Experts</h3>
+                        <p class="works__step__content__desc font big">Begin by browsing through our diverse
+                            selection
+                            of professional tutors
+                            and cooking groups. Each tutor brings their unique culinary expertise and passion,
+                            ensuring you have a variety of cooking styles and cuisines to choose from.</p>
+                        <a href="#" class="works__step__content__btn btn">Browse Tutors</a>
+                    </div>
+                </section>
+
+                <!-- 2 -->
+                <section class="works__step__item works__step__item-2 grid">
+                    <div class="works__step__content works__step__content-2">
+                        <h3 class="works__step__content__heading heading lv3">Enjoy Your Interactive Lesson</h3>
+                        <p class="works__step__content__desc font big">Step into your online kitchen and start
+                            cooking! Our lessons are designed to be fun and interactive, enabling you to learn directly
+                            from the experts.
+                            After the class, you can review your experience and track your progress.</p>
+                    </div>
+                    <div class="works__step__num works__step__num--2">
+                        <img class="works__step__num__img" src="./assets/img/work_12.png" alt="">
+                        <span class="step__num step__num--2 dpfl">2</span>
+                    </div>
+                </section>
+
+                <!-- 3 -->
+                <section class="works__step__item dpfl">
+                    <div class="works__step__num">
+                        <span class="step__num dpfl">3</span>
+                        <img class="works__step__num__img" src="./assets/img/work_03.png" alt="">
+                    </div>
+                    <div class="works__step__content">
+                        <h3 class="works__step__content__heading heading lv3">Enjoy Your Interactive Lesson</h3>
+                        <p class="works__step__content__desc font big">BStep into your online kitchen and start
+                            cooking!
+                            Our lessons are designed to be fun and interactive, enabling you to learn directly from
+                            the
+                            experts. After the class, you can review your experience and track your progress.</p>
+                        <a href="#" class="works__step__content__btn btn">Sign up for free</a>
+                    </div>
+                </section>
+
+            </div>
+
+            <div class="works__money dpfl">
+                <div class="works__money__content">
+                    <h4 class="works__money__title heading lv4">Money-back guarantee</h4>
+                    <p class="font big">We believe you'll enjoy your first cooking lesson. However, we've got your
+                        back if anything goes differently than expected. Our money-back guarantee ensures you can take
+                        the first step with complete confidence.</p>
+                    <img class="works__money__img--1" src="./assets/img/work_04.png" alt="">
+                    <img class="works__money__img--2" src="./assets/img/Icon/work05.png" alt="">
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--==================== Becom A Chef ====================-->
+        <section class="become-chef section grid container">
+            <div class="chef__content container">
+                <h2 class="become__chef__stu__heading heading lv2">Become A Chef</h2>
+                <p class="chef__desc font big">Share your culinary secrets, inspire cooking enthusiasts worldwide, and
+                    grow
+                    your
+                    career like never before. Our platform offers a unique way to connect, teach, and earn.</p>
+                <ul class="chef__list">
+                    <li class="chef__item">
+                        <img class="chef__item__img" src="./assets/img/Icon/chef_icon.png" alt="">
+                        <p class="chef__desc font big">
+                            <span class="chef__item__desc_strong">Build Your Brand.</span>
+                            Showcase your culinary skills and build your brand within our
+                            community.
+                        </p>
+                    </li>
+                    <li class="chef__item">
+                        <img class="chef__item__img" src="./assets/img/Icon/chef_icon.png" alt="">
+                        <p class="chef__desc font big">
+                            <span class="chef__item__desc_strong">Expand Your Reach.</span>
+                            Connect with cooking enthusiasts across the globe and expand your
+                            audience beyond geographical limits.
+                        </p>
+                    </li>
+                    <li class="chef__item">
+                        <img class="chef__item__img" src="./assets/img/Icon/chef_icon.png" alt="">
+                        <p class="chef__desc font big">
+                            <span class="chef__item__desc_strong">Grow Your Business Faster.</span>
+                            Utilize our platform's features and resources to
+                            accelerate your growth and increase your income.
+                        </p>
+                    </li>
+                </ul>
+                <div class="be__chef">
+                    <a href="#!" class="be__chef__btn btn">Become a chef</a>
+                </div>
+                <a href="#!" class="learn-how dpfl">
+                    <img class="learn-how__img" src="./assets/img/Icon/hearder-info.svg" alt="">
+                    <span>Learn how our platform works</span></p>
+                </a>
+
+            </div>
+            <img class="become-chef__img" src="./assets/img/chef.png" alt="">
+        </section>
+
+
+        <!--==================== Become A Student ====================-->
+        <section class="become-student section ">
+            <div class="become-student__inner grid">
+                <img class="become-student__img" src="./assets/img/become-student.png" alt="">
+                <div class="student__content container ">
+                    <h2 class="become__chef__stu__heading heading lv2 color--white">Become A Student</h2>
+                    <p class="student__desc font big color--white">Kick-start your culinary adventure with COOK. We
+                        provide a space for cooking enthusiasts of all levels to learn, explore, and master culinary
+                        arts from professional chefs worldwide. So dive in and transform your kitchen into a playground
+                        of flavors.
+                    </p>
+                    <ul class="student__list">
+                        <li class="student__item dpfl">
+                            <img class="student__item__img" src="./assets/img/student_icon.png" alt="">
+                            <p class="student__desc color--white font big">
+                                <span class="student__item__desc_strong ">Diverse Classes:</span>
+                                Access a wide variety of classes catering to all skill levels and culinary interests.
+                            </p>
+                        </li>
+                        <li class="student__item dpfl">
+                            <img class="student__item__img" src="./assets/img/student_icon.png" alt="">
+                            <p class="student__desc color--white font big">
+                                <span class="student__item__desc_strong ">World-Class Chefs:</span>
+                                Learn directly from professional chefs sharing their unique culinary secrets.
+                            </p>
+                        </li>
+                        <li class="student__item dpfl">
+                            <img class="student__item__img" src="./assets/img/student_icon.png" alt="">
+                            <p class="student__desc color--white font big">
+                                <span class="student__item__desc_strong">Interactive Learning:</span>
+                                Ask questions and receive real-time feedback in our interactive classes.
+                            </p>
+                        </li>
+                    </ul>
+                    <div class="be__student">
+                        <a href="#!" class="be__student__btn btn">Sign up</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== Popular online classes vaf  COOK Blog ====================-->
+        <section class="classes-blog section container">
+            <div class="classes">
+                <h2 class="cl_bl_heading heading lv2">
+                    <img src="./assets/img/el_header.png" alt="">
+                    <span>Popular online classes</span>
+                </h2>
+                <div class="cl__find find-by-category">
+                    <h3 class="cl__find__heading heading lv3">Find a tutor by category</h3>
+                    <ul class="cl__find__list">
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">Bakery</a>
+                        </li>
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">Japanese Sushi Making</a>
+                        </li>
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">Thai</a>
+                        </li>
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">Seafood</a>
+                        </li>
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">Italian Cuisine</a>
+                        </li>
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">Vegan</a>
+                        </li>
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">BBQ & Grilling</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="cl__find cl__find__country">
+                    <h3 class="cl__find__heading heading lv3">Find a tutor by country</h3>
+                    <ul class="cl__find__list cl__find__list__country">
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">USA</a>
+                        </li>
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">Spain</a>
+                        </li>
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">France</a>
+                        </li>
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">Mexico</a>
+                        </li>
+                        <li class="cl__find__item">
+                            <a class="cl__find__item__link" href="#">Germany</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="blog">
+                <h2 class="cl_bl_heading heading lv2">
+                    <img src="./assets/img/el_header.png" alt="">
+                    <span>COOK Blog</span>
+                </h2>
+                <ul class="blog__list">
+                    <li class="blog__item">
+                        <img class="blog__item__img" src="./assets/img/blog01.jpg" alt="">
+                        <div class="blog__item__about">
+                            <div class="blog__item__about__datetime dpfl">
+                                <img src="./assets/img/blog_calendar.svg" alt="">
+                                <p class="blog__item__about__date font big" style="--line-height: 23px">24 Apr, 2023</p>
+                            </div>
+                            <h4 class="heading lv4" style="font-size: 20px;">How to Prepare Authentic Mexican Tacos</h4>
+                        </div>
+                    </li>
+                    <li class="blog__item">
+                        <img class="blog__item__img" src="./assets/img/blog02.png" alt="">
+                        <div class="blog__item__about">
+                            <div class="blog__item__about__datetime dpfl">
+                                <img src="./assets/img/blog_calendar.svg" alt="">
+                                <p class="blog__item__about__date font big" style="--line-height: 23px">24 Apr, 2023</p>
+                            </div>
+                            <h4 class="heading lv4" style="font-size: 20px;">How to Prepare Authentic Mexican Tacos</h4>
+                        </div>
+                    </li>
+                    <li class="blog__item">
+                        <img class="blog__item__img" src="./assets/img/blog03.jpg" alt="">
+                        <div class="blog__item__about">
+                            <div class="blog__item__about__datetime dpfl">
+                                <img src="./assets/img/blog_calendar.svg" alt="">
+                                <p class="blog__item__about__date font big" style="--line-height: 23px">24 Apr, 2023</p>
+                            </div>
+                            <h4 class="heading lv4" style="font-size: 20px;">How to Prepare Authentic Mexican Tacos</h4>
+                        </div>
+                    </li>
+                    <li class="blog__item">
+                        <img class="blog__item__img" src="./assets/img/blog04.jpg" alt="">
+                        <div class="blog__item__about">
+                            <div class="blog__item__about__datetime dpfl">
+                                <img src="./assets/img/blog_calendar.svg" alt="">
+                                <p class="blog__item__about__date font big" style="--line-height: 23px">24 Apr, 2023</p>
+                            </div>
+                            <h4 class="heading lv4" style="font-size: 20px;">How to Prepare Authentic Mexican Tacos</h4>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section container">
+        <div class="footer__inner">
+            <a class="footer__item__logo_img" href="#!">
+                <img src="./assets/img/COOK.svg" alt="">
+            </a>
+            <section class="footer__item ">
+                <a href="#">About US</a>
+                <a href="#">Who we are</a>
+                <a href="#">How it works</a>
+                <a href="#">COOK reviews</a>
+            </section>
+            <section class="footer__item ">
+                <a href="#">For Students</a>
+                <a href="#">COOK blog</a>
+                <a href="#">Find a tutor</a>
+            </section>
+            <section class="footer__item ">
+                <a href="#">For Tutors</a>
+                <a href="#">Become an online chef</a>
+                <a href="#">Teach cooking online</a>
+            </section>
+            <section class="footer__item ">
+                <a href="#">Supports</a>
+                <a href="#">Need a help?</a>
+            </section>
+            <section class="footer__item ">
+                <a>USA</a>
+                <a href="#">Your address goes there</a>
+                <a href="">+000000000</a>
+            </section>
+            <section class="footer__item ">
+                <a href="#">COOK’s Socials</a>
+                <div class="footer__item__social">
+                    <a href="#">
+                        <img src="./assets/img/instagram.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/twitter.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/facebook.svg" alt="">
+                    </a>
+                    <a href="#">
+                        <img src="./assets/img/linkedin.svg" alt="">
+                    </a>
+                </div>
+            </section>
+            <section class="footer__item ">
+                <a href="#">LeGAL</a>
+                <a href="#">Terms Of Serivce </a>
+                <a href="#">Privacy Policy </a>
+            </section>
+        </div>
+        <div class="footer__line"></div>
+        <span class="footer__desc">2023 Copyright</span>
+    </footer>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

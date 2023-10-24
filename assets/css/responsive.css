@@ -1,0 +1,1620 @@
+/* Header */
+/* Hero */
+.hero__note {
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 21px;
+    border-radius: 16px;
+    border: 1px solid var(--primary-lighten);
+    background: var(--secondary-background);
+    top: 0;
+}
+
+.hero__note-title.dpfl {
+    column-gap: 25px;
+}
+
+.note__title p {
+    font-family: Rubik;
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.note__title span {
+    font-weight: 600;
+}
+
+.hero__note-desc {
+    color: var(--text-color-secondary);
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+/* Info */
+.hero__info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    row-gap: 24px;
+}
+
+.hero__title--strong {
+    color: var(--primary-color);
+    font-family: Pacifico;
+    font-weight: 400;
+}
+
+.watch-video__img {
+    margin-right: 11px;
+}
+
+.hero__action.dpfl {
+    gap: 20px;
+}
+
+.hero__action__join {
+    color: var(--primary-color);
+    background: var(--secondary-background);
+}
+
+.hero__landing-stats {
+    justify-content: space-between;
+    border-radius: 16px;
+    border: solid 1px var(--primary-lighten);
+    background: var(--secondary-background);
+}
+
+.landing__item {
+    display: flex;
+    padding: 20px 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.landing__stats {
+    color: var(--primary-color);
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4.7rem;
+    letter-spacing: -0.8px;
+}
+
+.landing__desc {
+    line-height: 2.4rem;
+}
+
+.landing--rating__img {
+    margin-left: 10px;
+}
+
+/* EL */
+.list__el {
+    display: grid;
+    gap: 24px;
+}
+
+.el__item.dpfl {
+    padding: 24px 34px;
+    border-radius: 16px;
+    border: 1px solid var(--primary-lighten);
+    background: var(--body-color);
+}
+
+.el__item__img {
+    margin-right: 28px;
+}
+
+.el__content__title.dpfl {
+    justify-content: space-between;
+}
+
+/* list-category__show */
+.el__show {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    margin-top: 32px;
+}
+
+.el__show__img {
+    margin-left: 13px;
+}
+
+/* Belefits */
+.benefits {
+    display: flex;
+    flex-direction: column;
+}
+
+.benefits__title__heading {
+    position: relative;
+}
+
+.benefits__title__heading__img {
+    position: absolute;
+    top: -10px;
+}
+
+.benefits__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.benefits__item__heading {
+    margin: 27px 0;
+}
+
+.benefits__item:last-child {
+    margin-right: 0;
+}
+
+.benefits__item__img {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    padding: 25px;
+    border-radius: 111px;
+    background: var(--primary-color);
+}
+
+/* other-advantages */
+.advan__level {
+    position: relative;
+}
+
+.advan__level__content {
+    position: absolute;
+    padding: 24px;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 16px;
+    background: var(--primary-color);
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.05), 0px 2px 5px 0px rgba(0, 0, 0, 0.05), 0px 9px 9px 0px rgba(0, 0, 0, 0.04), 0px 20px 12px 0px rgba(0, 0, 0, 0.03), 0px 35px 14px 0px rgba(0, 0, 0, 0.01), 0px 55px 15px 0px rgba(0, 0, 0, 0.00);
+}
+
+.advan__level__content_title {
+    color: var(--body-color);
+    text-align: right;
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 2.8rem;
+}
+
+.advan__level__content_img {
+    margin-left: 4px;
+}
+
+.advan__level__content_desc {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 2.24rem;
+    color: var(--body-color);
+    margin-top: 16px;
+}
+
+.advan__list__heading {
+    font-size: 3.1rem;
+}
+
+.advan__list__inner {
+    margin-top: 29px;
+}
+
+.advan__list__item {
+    padding: 16px;
+    border-radius: 16px;
+    border: 1px solid var(--primary-lighten);
+    background: var(--body-color);
+}
+
+.advan__list__item+.advan__list__item {
+    margin-top: 24px;
+}
+
+.advan__list__item__desc {
+    margin-top: 10px;
+}
+
+.advan__list__item {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+/* Works */
+.works {
+    position: relative;
+}
+
+.works__steps__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.works__step__num__img {
+    border-radius: 32px;
+    object-fit: cover;
+}
+
+/* Money */
+.works__money.dpfl {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 523px;
+    border-radius: 16px;
+    border: 1px solid var(--primary-lighten);
+    background: var(--secondary-background);
+}
+
+.works__money__content {
+    padding: 85px 25px 39px 25px;
+    position: relative;
+}
+
+.works__money__img--1 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: var(--primary-color);
+    padding: 25px;
+    border-radius: 50%;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.works__money__img--2 {
+    position: absolute;
+    top: -75px;
+    left: calc(50% + 20px);
+}
+
+.works__money__title {
+    margin-bottom: 20px;
+}
+
+.works__step__content {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    align-items: start;
+}
+
+/* become a chef */
+.chef__content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: start;
+}
+
+.chef__list {
+    padding: 16px 0px;
+}
+
+.chef__item,
+.student__item {
+    display: flex;
+    align-items: flex-start;
+}
+
+.chef__item+.chef__item,
+.student__item+.student__item {
+    margin-top: 8px;
+}
+
+.student__item__img,
+.chef__item__img {
+    margin-right: 8px;
+}
+
+.chef__item__desc_strong {
+    font-weight: 700;
+}
+
+.learn-how__img {
+    margin-right: 13px;
+}
+
+.become-chef__img {
+    object-fit: cover;
+
+}
+
+/* Become A Student */
+.become-student__img {
+    object-fit: cover;
+}
+
+.student__list {
+    padding: 16px 0px;
+}
+
+.be__student__btn {
+    border: 2px solid var(--primary-lighten);
+}
+
+.student__content {
+    --text-color-secondary: #ffffff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.student__item__desc_strong {
+    font-weight: 700;
+}
+
+/* classes */
+.classes,
+.blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.cl_bl_heading {
+    margin-bottom: 47px;
+}
+
+.cl__find__heading {
+    margin-bottom: 26px;
+}
+
+.cl__find__list {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.cl__find__item {
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+
+.cl__find__country {
+    margin-top: 75px;
+}
+
+.cl__find__item__link {
+    color: var(--primary-color);
+    font-family: "Kanit";
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+    padding: 4px 24px;
+    border-radius: 58px;
+    border: 1px solid var(--primary-lighten, #FFDBB8);
+    background: var(--secondary-background)
+}
+
+/* Blog */
+.blog {
+    position: relative;
+}
+
+.blog::before {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: -10%;
+    content: "";
+    display: inline-block;
+    width: 0px;
+    height: 160px;
+    border: 1px solid var(--primary-lighten);
+    border-radius: 1px;
+}
+
+.blog__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1 0 calc(50% - 12px);
+    border-radius: 16px;
+    border: 1px solid var(--primary-color);
+    overflow: hidden;
+    max-height: 340px;
+}
+
+.blog__item__img {
+    width: 100%;
+    max-height: 213px;
+    object-fit: cover;
+}
+
+.blog__item__about {
+    display: flex;
+    padding: 20px 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.blog__item__about__datetime {
+    margin-bottom: 10px;
+}
+
+.blog__item__about__date {
+    margin-left: 6px;
+}
+
+/* footer */
+.footer {
+    background: var(--primary-color);
+}
+
+.footer__inner {
+    display: grid;
+}
+
+.footer__item__logo_img {
+    align-self: center;
+}
+
+.footer__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__item a,
+.footer__desc {
+    color: var(--primary-lighten);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3rem;
+}
+
+.footer__item a+a {
+    margin-top: 8px;
+}
+
+.footer__item a:first-child {
+    color: var(--body-color);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+}
+
+/*=============== BREAKPOINTS ===============*/
+
+/* PC */
+@media screen and (min-width: 992px) {
+    .section {
+        padding-inline: 64px;
+    }
+
+    /* ==================== HEADER ==================== */
+    .header {
+        padding: 38px 64px 25px 64px;
+        border-bottom: 1px solid var(--primary-lighten);
+    }
+
+    .nav__action,
+    .toggle-menu,
+    .nav__link__select {
+        display: none;
+    }
+
+    .header__inner {
+        width: 100%;
+        display: grid;
+        align-items: center;
+        grid-template-columns: 88px 43% 50%;
+    }
+
+    .header__logo {
+        margin-right: 32px;
+    }
+
+    .nav__list {
+        display: flex;
+        position: relative;
+        display: flex;
+        margin-left: 20px;
+    }
+
+    .nav__list::before {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -20px;
+        content: "";
+        display: inline-block;
+        width: 0px;
+        height: 15px;
+        border: 2px solid var(--primary-lighten);
+        border-radius: 2px;
+    }
+
+    .nav__link {
+        min-width: 184px;
+        padding: 8px 12px;
+    }
+
+    .nav__item__img {
+        margin-right: 7px;
+    }
+
+    /* header action */
+    .hearder__action.dpfl {
+        position: relative;
+        justify-self: end;
+    }
+
+    .action__select {
+        font-size: 1.9rem;
+        font-weight: 400;
+        line-height: 1;
+    }
+
+    .action__subnav {
+        z-index: 1;
+        width: 255px;
+        padding: 16px;
+        display: none;
+        position: absolute;
+        top: 48px;
+        border-radius: 6px;
+        border: 1px solid var(--primary-lighten);
+        background: var(--body-color);
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10), 0px 4px 8px 0px rgba(0, 0, 0, 0.10),
+            0px 15px 15px 0px rgba(0, 0, 0, 0.09), 0px 33px 20px 0px rgba(0, 0, 0, 0.05),
+            0px 59px 23px 0px rgba(0, 0, 0, 0.01), 0px 92px 26px 0px rgba(0, 0, 0, 0.00);
+    }
+
+    .action__language:hover .action__subnav,
+    .action__currency:hover .action__subnav {
+        display: block;
+    }
+
+    .action__subnav p {
+        font-size: 1.8rem;
+        font-weight: 700;
+    }
+
+    .action__subnav li {
+        color: var(--text-color-secondary);
+        font-size: 1.6rem;
+        font-weight: 500;
+        line-height: 2rem;
+        padding: 8px 12px;
+        margin-top: 5px;
+        border-bottom: 1px solid var(--primary-lighten);
+    }
+
+    .action__subnav li:hover {
+        background: var(--primary-lighten);
+    }
+
+    .action__img {
+        margin-left: 4px;
+    }
+
+    .action__currency {
+        margin-left: 22px;
+    }
+
+    .action__info {
+        position: relative;
+        margin: 0 40px;
+    }
+
+    .action__info::before,
+    .action__info::after {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -20px;
+        content: "";
+        display: inline-block;
+        width: 0px;
+        height: 15px;
+        border: 2px solid var(--primary-lighten);
+        border-radius: 2px;
+    }
+
+    .action__info::after {
+        left: 40px;
+    }
+
+    .action__login__item.dpfl {
+        color: var(--body-color);
+        font-size: 2rem;
+        font-weight: 500;
+        gap: 8px;
+    }
+
+    /* ==================== HERO ==================== */
+    .hero {
+        margin-top: 71px;
+        display: grid;
+        grid-template-areas: "a b";
+        align-items: center;
+        padding-bottom: 255px;
+    }
+
+    .hero__img__main {
+        width: 518px;
+        height: 407px;
+    }
+
+    .hero__info {
+        grid-area: a;
+        margin-right: 18px;
+        align-items: start;
+        text-align: start;
+
+    }
+
+    .hero__info__title {
+        max-width: 702px;
+        font-size: 6.1rem;
+    }
+
+    .hero__info__desc {
+        max-width: 533px;
+    }
+
+    .hero__img {
+        grid-area: b;
+    }
+
+    .hero__note,
+    .hero__img-2 {
+        display: none;
+    }
+
+    /* ==================== EL ==================== */
+    .explore-learn {
+        margin-top: 253px;
+    }
+
+    .el.dpfl {
+        justify-content: space-between;
+    }
+
+    .el__search__img {
+        margin-right: 10px;
+    }
+
+    .list__el {
+        margin-top: 68px;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    /* ==================== benefits ==================== */
+    .benefits {
+        margin-top: 152px;
+    }
+
+    .benefits__item {
+        margin-right: 116px;
+    }
+
+    .benefits__title__desc {
+        margin-top: 15px;
+    }
+
+    .benefits__list.dpfl {
+        margin-top: 79px;
+        justify-content: space-around;
+    }
+
+    .benefits__item:nth-child(2)::before,
+    .benefits__item:last-child::before {
+        content: "";
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: -58px;
+        width: 0px;
+        height: 42px;
+        border: 2px solid var(--primary-lighten);
+        border-radius: 2px;
+    }
+
+    .advan.grid {
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        margin-top: 255px;
+        justify-content: center;
+    }
+
+    .advan__level__img {
+        max-width: 535px;
+        min-height: 420px;
+    }
+
+    /* ==================== works ==================== */
+    .works {
+        margin-top: 204px;
+        padding-bottom: 293px;
+    }
+
+    .works__steps__list {
+        margin-top: 91px;
+        gap: 143px;
+    }
+
+    .works__step__item.dpfl {
+        gap: 131px
+    }
+
+    .works__step__num__img {
+        height: 380px;
+        max-width: 567px;
+    }
+
+    .works__step__content {
+        width: 45%;
+    }
+
+    .works__step__num {
+        width: 50%;
+    }
+
+    .works__step__item-2.grid {
+        display: flex;
+        gap: 131px;
+    }
+
+    .works__step__num--2 {
+        max-width: 50%;
+    }
+
+    /* ==================== become a chef ==================== */
+    .become-chef.grid {
+        margin-top: 286px;
+        grid-template-columns: 50% 42%;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .become-chef__img {
+        max-width: 551px;
+        height: 426px;
+    }
+
+    /* ==================== become a student ==================== */
+    .become-student__inner.grid {
+        grid-template-columns: 43% 50%;
+        align-items: center;
+        margin-top: 142px;
+        background-color: var(--primary-color);
+        border-radius: 26px;
+        justify-content: space-between;
+    }
+
+    .become-student__img {
+        border-radius: 24px 0px 0px 24px;
+        max-width: 100%;
+        height: 647px;
+    }
+
+    .student__content {
+        min-width: 430px;
+    }
+
+    /* ==================== classes and blog ==================== */
+    .classes-blog {
+        margin-top: 158px;
+        display: grid;
+        grid-template-columns: 38% 50%;
+        justify-content: space-between;
+    }
+
+    .cl__find__list__country {
+        width: 350px;
+    }
+
+    .cl__find {
+        transform: translateX(48px);
+        max-width: 486px;
+    }
+
+    /* ==================== footer ==================== */
+    .footer {
+        height: 419px;
+        border-radius: 24px 24px 0px 0px;
+        background: var(--primary-color);
+        margin-top: 137px;
+        position: relative;
+    }
+
+    .footer__inner {
+        padding: 54px 102.5px 0 91.5px;
+        grid-template-columns: 301px 144px 149px 219px 135px;
+        grid-template-rows: 149px 103px;
+        grid-row-gap: 68px;
+        grid-column-gap: 45px;
+    }
+
+    .footer__line {
+        position: absolute;
+        width: 100%;
+        border: 2px solid var(--primary-lighten);
+        opacity: 0.2;
+        top: 246px;
+        left: 31px;
+    }
+
+    .footer__desc {
+        position: absolute;
+        right: 43px;
+        bottom: 27px;
+    }
+}
+
+/* PC & Tablet */
+@media screen and (min-width: 768px) {
+    /* ==================== HEADER ==================== */
+
+    /* ==================== HERO ==================== */
+    .hero {
+        position: relative;
+        border-bottom: 1px solid var(--primary-lighten);
+    }
+
+    .hero__landing-stats {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        padding: 12px 23px;
+    }
+
+    .hero__img__main {
+        border-radius: 32px;
+        object-fit: cover;
+    }
+
+    .hero__note {
+        width: 284px;
+    }
+
+    /* ==================== EL ==================== */
+    .el__title__img {
+        margin-right: 20px;
+    }
+
+    .el__desc {
+        width: 552px;
+        margin-top: 7px;
+        margin-left: 69px;
+    }
+
+    /* ==================== benefits ==================== */
+    .advan__level__img {
+        border-radius: 32px;
+        object-fit: cover;
+    }
+
+    .advan__level__content {
+        top: 278px;
+        left: -84px;
+        width: 284px;
+    }
+
+    .advan__list__item__img {
+        width: 32px;
+        height: 32px;
+    }
+
+
+    /* ==================== works ==================== */
+    .works__title.dpfl {
+        justify-content: space-between;
+    }
+
+    .sub-title.dpfl {
+        gap: 20px;
+    }
+
+    .words__search.dpfl {
+        gap: 10px;
+    }
+
+    .works__desc {
+        margin-left: 100px;
+    }
+
+    .works__step__num {
+        position: relative;
+        max-height: 380px;
+    }
+
+    .step__num.dpfl {
+        justify-content: center;
+        width: 105px;
+        height: 105px;
+        padding: 10px;
+        border-radius: 16px;
+        background: var(--primary-color);
+        color: var(--body-color);
+        font-size: 6.4rem;
+        font-weight: 900;
+        line-height: 8.5rem;
+    }
+
+    .step__num:first-child,
+    .step__num:last-child {
+        position: absolute;
+        top: 0;
+        left: -24px;
+        z-index: 1;
+    }
+
+    .step__num--2 {
+        position: absolute;
+        top: 0;
+        transform: translateY(-50%);
+    }
+
+    .works {
+        border-bottom: 1px solid var(--primary-lighten);
+    }
+
+    .works__money.dpfl {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    /* ==================== become a chef ==================== */
+    .become-chef__img {
+        border-radius: 32px;
+    }
+
+    /* ==================== become a student ==================== */
+    .student__content {
+        margin-right: 86px;
+    }
+
+    /* ==================== classes and blog ==================== */
+    .blog__list {
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 23px;
+    }
+
+    /* ==================== footer ==================== */
+
+
+}
+
+/* tablet */
+@media screen and (min-width: 768px) and (max-width:990px) {
+    .section {
+        padding-inline: 48px;
+    }
+
+    /* ==================== HEADER ==================== */
+    .header {
+        padding: 40px 48px 28px 48px;
+    }
+
+    /* ==================== HERO ==================== */
+    .hero {
+        padding-bottom: 164px;
+    }
+
+    .hero__img {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-bottom: 124px;
+        position: relative;
+    }
+
+    .hero__img__main {
+        width: 586px;
+        height: 385px;
+    }
+
+    .hero__note {
+        position: absolute;
+        top: 273px;
+        left: calc((100% - 586px) / 2 - 40px);
+    }
+
+    .hero__img-2 {
+        position: absolute;
+        top: 315px;
+        right: calc((100% - 586px) / 2 - 20px);
+    }
+
+    .hero__info__title {
+        font-size: 5rem;
+    }
+
+    .landing__stats {
+        font-size: 3.2rem;
+    }
+
+    /* ==================== EL ==================== */
+    .explore-learn {
+        margin-top: 200px;
+    }
+
+    .el__item.dpfl {
+        width: calc(50% -24px);
+    }
+
+    .list__el {
+        margin-top: 44px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    /* ==================== benefits ==================== */
+    .benefits {
+        margin-top: 107px;
+    }
+
+    .heading.lv2 {
+        font-size: 4.2rem;
+    }
+
+    .benefits__title__desc {
+        margin-top: 6px;
+    }
+
+    .benefits__list.dpfl {
+        margin-top: 75px;
+        gap: 33px;
+    }
+
+    .advan.grid {
+        margin-top: 163px;
+    }
+
+    .advan__level__img {
+        max-width: 583px;
+        min-height: 367px;
+    }
+
+    .advan__list {
+        margin-top: 137px;
+
+    }
+
+    /* ==================== works ==================== */
+    .works {
+        margin-top: 187px;
+        padding-bottom: 268px;
+    }
+
+    .works__steps__list {
+        margin-top: 83px;
+    }
+
+    .works__steps__list {
+        gap: 123px;
+    }
+
+    .works__step__num__img {
+        max-width: 551px;
+        height: 370px;
+    }
+
+    /* ==================== become a chef ==================== */
+    .become-chef {
+        margin-top: 318px;
+    }
+
+    /* ==================== become a student ==================== */
+    .become-student.section {
+        padding: 0;
+    }
+
+    .become-student__img {
+        border-radius: 13px;
+        max-width: 100%;
+        height: 506px;
+    }
+
+    .become-student__inner.grid {
+        grid-template-columns: 38% 57%;
+        align-items: center;
+        margin-top: 73px;
+        background-color: var(--primary-color);
+        padding: 65px 60px 59px 73px;
+        gap: 42px;
+    }
+
+    .student__content {
+        min-width: 366px;
+    }
+
+    /* ==================== classes and blog ==================== */
+    .classes-blog {
+        margin-top: 117px;
+    }
+
+    /* ==================== footer ==================== */
+    .footer__inner {
+        margin-top: 131px;
+        padding-top: 62px;
+        grid-template-columns: 144px 149px 219px 135px;
+        grid-template-rows: 66px auto auto;
+        grid-row-gap: 64px;
+        grid-column-gap: 25px;
+    }
+
+    .footer__item__logo_img {
+        grid-column: 1 / 5;
+        grid-row: 1;
+    }
+
+    .footer__desc {
+        display: block;
+        margin-top: 120px;
+        text-align: center;
+        transform: translateY(-34px);
+    }
+
+}
+
+/* Tablet & mobie */
+@media screen and (max-width: 991px) {
+
+    /* ==================== HEADER ==================== */
+    .header__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav__item__img,
+    .hearder__action {
+        display: none;
+    }
+
+    .header {
+        position: relative;
+    }
+
+    .header__nav {
+        z-index: 2;
+        position: fixed;
+        top: 0;
+        right: 100%;
+        background: var(--primary-color);
+        width: 80%;
+        height: 100%;
+        box-shadow: 0 0 16px hsla(268, 58%, 4%, .2);
+        padding: 23px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: column;
+        row-gap: 12px;
+    }
+
+    .nav__link span,
+    .nav__action__select,
+    .action__subnav {
+        color: var(--body-color);
+        transition: color .4s;
+    }
+
+    .nav__link a {
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .btn__icon {
+        width: 41px;
+        height: 41px;
+        padding: 10px;
+        border-radius: 12px;
+        background: var(--primary-color);
+        cursor: pointer;
+    }
+
+    .nav__action {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 56px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .nav__img__select {
+        margin-left: 22px;
+    }
+
+    .show-menu {
+        right: 0;
+    }
+
+    /* ==================== HERO ==================== */
+    .hero {
+        display: grid;
+        grid-template-rows: auto auto;
+        justify-content: center;
+        align-items: center;
+        /* text-align: center; */
+
+    }
+
+    .hero__img {
+        margin-bottom: 18px;
+    }
+
+    /* ==================== EL ==================== */
+    .el__search {
+        display: none;
+    }
+
+    /* ==================== benefits ==================== */
+    .benefits__list.dpfl {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .benefits__item:nth-child(2)::before,
+    .benefits__item:last-child::before {
+        display: none;
+    }
+
+    .advan.grid {
+        grid-template-rows: auto auto;
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .benefits {
+        align-items: center;
+    }
+
+    .advan__level {
+        margin: 0 auto;
+    }
+
+    /* ==================== works ==================== */
+    .works__step__item.dpfl {
+        flex-direction: column;
+        align-items: center;
+        gap: 42px;
+    }
+
+
+    /* ==================== become a chef ==================== */
+    .become-chef {
+        grid-template-rows: auto auto;
+        row-gap: 42px;
+    }
+
+    .become-chef__img {
+        grid-row: 1;
+        margin: 0 auto;
+    }
+
+    /* ==================== become a student ==================== */
+
+    /* ==================== classes and blog ==================== */
+    .classes-blog {
+        margin-top: 158px;
+        display: grid;
+        grid-template-rows: auto auto;
+        row-gap: 89px;
+    }
+
+    .blog {
+        grid-row: 1;
+    }
+
+    .find-by-category {
+        width: 100%;
+    }
+
+    .cl__find__list__country {
+        width: 100%;
+    }
+
+    /* ==================== footer ==================== */
+    .footer__line {
+        display: none;
+    }
+}
+
+/* mobile */
+@media screen and (max-width: 767px) {
+    .section {
+        padding: 0px;
+    }
+
+    /* ==================== HEADER ==================== */
+    .header {
+        padding: 29px 32px 28px 32px;
+    }
+
+    /* ==================== HERO ==================== */
+    .container {
+        padding-inline: 32px;
+    }
+
+    .hero__img {
+        position: relative;
+        margin-bottom: 174px;
+    }
+
+    .hero__img__main {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .hero__note {
+        position: absolute;
+        min-height: 200px;
+        width: auto;
+        bottom: -133px;
+        top: auto;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .hero__img-2 {
+        display: none;
+    }
+
+    /* Info */
+    .hero__info__title {
+        font-size: 3.2rem;
+    }
+
+    .hero__action.dpfl {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .hero__action__find.btn,
+    .hero__action__join.btn {
+        width: 100%;
+    }
+
+    .hero__landing-stats.dpfl {
+        flex-direction: column;
+        max-width: 326px;
+        margin: 78px auto 112px;
+    }
+
+    /* ==================== EL ==================== */
+
+    .heading.lv2 {
+        font-size: 3.2rem;
+    }
+
+    .explore-learn {
+        margin-top: 112px;
+    }
+
+    .el__desc {
+        display: none;
+    }
+
+    .list__el {
+        margin-top: 47px;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    /* ==================== benefits ==================== */
+    .container {
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .heading.lv2 {
+        font-size: 3rem;
+    }
+
+    .heading.lv3 {
+        font-size: 2.8rem;
+    }
+
+    .benefits__title__desc {
+        display: none;
+    }
+
+    .benefits {
+        margin-top: 112px;
+    }
+
+    .benefits__list.dpfl {
+        margin-top: 44px;
+        gap: 42px;
+    }
+
+    .advan.grid {
+        margin-top: 151px;
+    }
+
+    .advan__list {
+        margin-top: 151px;
+    }
+
+    .advan__level {
+        width: 100%;
+    }
+
+    .advan__level__img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .advan__level__content {
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 47%);
+    }
+
+    .advan__list__item {
+        flex-direction: column;
+    }
+
+    .advan__list__item__img {
+        width: 48px;
+        height: 48px;
+    }
+
+    /* ==================== works ==================== */
+    .works {
+        margin-top: 117px;
+        padding-bottom: 500px;
+    }
+
+    .words__search,
+    .works__desc {
+        display: none;
+    }
+
+    .works__steps__list {
+        margin-top: 57px;
+    }
+
+    .works__steps__list {
+        gap: 94px;
+    }
+
+    .works__step__num__img {
+        max-width: 326px;
+        height: 254px;
+    }
+
+    .step__num {
+        display: none;
+    }
+
+    .works__step__item-2.grid {
+        grid-template-rows: auto auto;
+    }
+
+    .works__step__num--2 {
+        margin: 0 auto;
+        grid-row: 1;
+    }
+
+    .works__money.dpfl {
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .works__step__content__btn {
+        margin: 0 auto;
+    }
+
+    /* ==================== become a chef ==================== */
+    .become-chef {
+        margin-top: 325px;
+    }
+
+    .become-chef__img,
+    .be__chef__btn,
+    .be__chef {
+        width: 100%;
+    }
+
+    /* ==================== become a student ==================== */
+    .become-student__inner.grid {
+        grid-template-rows: auto auto;
+        gap: 42px;
+        align-items: center;
+        margin-top: 73px;
+        background-color: var(--primary-color);
+        padding-bottom: 35px;
+    }
+
+    .become-student__img {
+        width: 100%;
+    }
+
+    .be__student__btn {
+        width: 100%;
+    }
+
+    /* ==================== classes and blog ==================== */
+    .classes-blog {
+        margin-top: 104px;
+    }
+
+    .blog {
+        grid-row: 1;
+    }
+
+    .blog__item {
+        max-width: 316px;
+    }
+
+    .blog__item:nth-child(3),
+    .blog__item:nth-child(4) {
+        display: none;
+    }
+
+    .blog__list {
+        display: flex;
+        gap: 23px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* ==================== footer ==================== */
+    .footer {
+        margin-top: 104px;
+    }
+
+    .footer__inner {
+        padding-top: 116px;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-content: center;
+        row-gap: 32px;
+        text-align: center;
+    }
+
+    .footer__item {
+        align-items: center;
+    }
+
+    .footer__desc {
+        display: block;
+        margin-top: 154px;
+        text-align: center;
+        transform: translateY(-63px);
+    }
+
+    .footer__item:nth-child(6) {
+        margin-top: 93px;
+    }
+}
